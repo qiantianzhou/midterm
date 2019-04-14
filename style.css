@@ -1,13 +1,17 @@
-*{
-
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+* {
+    margin:0;
 }
-
-
-
-
+html{
+    font-size:100%;
+}
+body{
+    font-family: 'Roboto', sans-serif; font-family: 'Niramit', sans-serif;
+    font-size:1em;
+    margin:50px 75px 50px 75px;
+	background-color: #F2C1B6;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#003840;
+}
 .bannerbackground{
 	height:600px;
 	width:100%;
@@ -18,14 +22,6 @@
 	border: solid 5px #F23847;
 	margin-bottom:10px;
 }
-.center-responsive{ 
-	display:block;
-	max-width:100%; 
-	max-height: 100%;
-	margin:0 auto;
-	padding-top:20px;
-	padding-bottom:20px;
-	}
 nav{
 	background-color:#F23847;
 	text-align:center;
@@ -59,49 +55,33 @@ article{
 	padding-top:40px;
 	padding-right:30px;
 }
-aside{
-	width:29%;
-	float:right;
-	height:700px;
-	background-color:#F23847;
-	text-align:left;
-	font-size:20px;
-	color:#ffffff;
-	padding-left:30px;
-	padding-top:25px;
-	margin-left:1%;
+h3{
+    font-weight:400;
+    font-size:1.5em;
 }
-body{
-	margin:50px 75px 50px 75px;
-	background-color: #F2C1B6;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#003840;
+#content{
+    display:flex;
+    flex-direction:column;
+}
+.content-item{
+    padding-left:16px;
+    padding-right:16px;
+    margin-bottom:32px;
+}
+#main img{
+    width:100%;
 }
 
+@media(min-width:768px){
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#content{
+    flex-direction:row;
+}
+    #work{
+        width:70%;
+    }
+    #about{
+        width:30%;
+    }
+}
