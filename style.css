@@ -41,6 +41,14 @@ body{
 	padding-top:20px;
 	padding-bottom:20px;
 }
+.center-responsive1{ 
+	display:block;
+	max-width:50%; 
+	max-height: 50%;
+	margin:0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
+}
 nav{
 	background-color:#F23847;
 	text-align:center;

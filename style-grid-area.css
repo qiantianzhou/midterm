@@ -1,7 +1,7 @@
 .site{
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(5,1fr);
+	
 	grid-template-areas: 
 	"title"
 	"masthead"
@@ -12,23 +12,23 @@
 }
 .masthead{
 	grid-area: masthead;
-	background-color: #b46ae3;
+	background-color: #FF7B8F;
 }
 .page-title{
 	grid-area: title;
-	background-color: #51a7fa;
+	background-color: #F23847;
 }
 .main-content{
 	grid-area: main;
-	background-color: #70bf40;
+	background-color: #E74F60;
 }
 .sidebar{
 	grid-area: sidebar;
-	background-color: #f49018;
+	background-color: #FF4F40;
 }
 .footer-content{
 	grid-area:footer;
-	background-color: #0265c0;
+	background-color: #FF7061;
 }
 .site {
 	margin: 1em;
