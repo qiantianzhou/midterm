@@ -12,40 +12,20 @@ body{
 	font-family:Arial, Helvetica, sans-serif;
 	color:#003840;
 }
-.bannerbackground{
-	height:300px;
+.bannerbackground3{
+	height:400px;
 	width:100%;
-	background-image:url("images/nintendologo222.jpg");
+	background-image:url("images/banner3.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-color:#cccccc;
 	border: solid 5px #F23847;
 	margin-bottom:10px;
 }
-.bannerbackground2{
-	height:300px;
-	width:100%;
-	background-image:url("images/banner2.jpg");
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-color:#cccccc;
-	border: solid 5px #F23847;
-	margin-bottom:10px;
-}
-
-
 .center-responsive{ 
 	display:block;
 	max-width:100%; 
 	max-height: 100%;
-	margin:0 auto;
-	padding-top:20px;
-	padding-bottom:20px;
-}
-.center-responsive1{ 
-	display:block;
-	max-width:50%; 
-	max-height: 50%;
 	margin:0 auto;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -95,17 +75,20 @@ h3{
 #main img{
     width:100%;
 }
+#about img{
+	width:100%;
+}
 
-@media(min-width:768px){
+@media(min-width:600px){
 
 
 #content{
     flex-direction:row;
 }
     #main{
-        width:70%;
+        width:60%;
     }
     #about{
-        width:30%;
+        width:40%;
     }
 }
