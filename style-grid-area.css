@@ -43,6 +43,31 @@
     color: white;
 
 }
+.featured-image img{
+	display:block;
+	width:100%;
+	height:auto;
+
+}
+.featured-image{
+	margin: 1em 0;
+}
+.image-caption{
+	font-size: 80%;
+	padding: .7em 1em;
+	background: #FFE6E3;
+	color: black;
+}
+.featured-image1 img{
+	display:block;
+	width:100%;
+	height:auto;
+	padding-top:50px;
+	padding-bottom:20px;
+}
+.featured-image1{
+	margin: 1em 0;
+}
 
 
 
